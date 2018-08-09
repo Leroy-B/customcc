@@ -1,5 +1,5 @@
-THEOS_DEVICE_IP = 192.168.1.37
-#THEOS_DEVICE_IP = 192.168.1.105
+#THEOS_DEVICE_IP = 192.168.1.37
+THEOS_DEVICE_IP = 192.168.1.105
 TARGET = iphone:11.2:11.0
 # TARGET = simulator:clang::11.0
 
@@ -11,6 +11,8 @@ include $(THEOS)/makefiles/common.mk
 TWEAK_NAME = CustomCC
 CustomCC_FILES = Tweak.xm
 CustomCC_LIBRARIES = colorpicker
+CustomCC_EXTRA_FRAMEWORKS += Cephei
+CustomCC_EXTRA_FRAMEWORKS += CepheiPrefs
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 

@@ -7,7 +7,9 @@ CustomCCPref_FILES = CCCRootListController.m
 CustomCCPref_INSTALL_PATH = /Library/PreferenceBundles
 CustomCCPref_FRAMEWORKS = UIKit
 CustomCCPref_PRIVATE_FRAMEWORKS = Preferences
-CustomCCPreferences_LIBRARIES = colorpicker
+CustomCCPref_LIBRARIES = colorpicker
+CustomCCPref_EXTRA_FRAMEWORKS += Cephei
+CustomCCPref_EXTRA_FRAMEWORKS += CepheiPrefs
 
 include $(THEOS_MAKE_PATH)/bundle.mk
 
