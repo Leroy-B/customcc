@@ -293,7 +293,7 @@
 			<key>cell</key>
 			<string>PSLinkCell</string>
 			<key>detail</key>
-			<string>HBDemoAboutListController</string>
+			<string>CCCAboutListController</string>
 			<key>isController</key>
 			<true/>
 			<key>label</key>

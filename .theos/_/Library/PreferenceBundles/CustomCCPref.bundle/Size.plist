@@ -187,7 +187,7 @@
 		</dict>
 		<!-- CCsize end -->
 		<!-- actions start -->
-		<dict>
+		<!-- <dict>
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
@@ -208,7 +208,7 @@
 			<string>Apply settings and respring!</string>
 			<key>action</key>
 			<string>respring</string>
-		</dict>
+		</dict> -->
 		<!-- actions end -->
 	</array>
 	<key>title</key>

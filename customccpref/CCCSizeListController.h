@@ -1,4 +1,4 @@
-#import "HBAboutListController.h"
+#include "CCCRootListController.h"
 
 @interface CCCSizeListController : HBListController
 
