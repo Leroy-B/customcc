@@ -1,6 +1,6 @@
-#import "HBDemoAboutListController.h"
+#import "CCCAboutListController.h"
 
-@implementation HBDemoAboutListController
+@implementation CCCAboutListController
 
 #pragma mark - HBListController
 

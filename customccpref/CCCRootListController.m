@@ -25,15 +25,15 @@
 
 	HBAppearanceSettings *appearance = [[HBAppearanceSettings alloc] init];
 	appearance.tintColor = [UIColor orangeColor];
-	appearance.navigationBarTintColor = [UIColor blackColor];
-	appearance.navigationBarBackgroundColor = [UIColor whiteColor];
-	appearance.navigationBarTitleColor = [UIColor greenColor];
-	appearance.statusBarTintColor = [UIColor blackColor];
-	appearance.tableViewCellTextColor = [UIColor blackColor];
-	appearance.tableViewCellBackgroundColor = [UIColor colorWithRed:246/255.f green:239/255.f blue:239/255.f alpha:1.0];
-	appearance.tableViewCellSeparatorColor = [UIColor colorWithRed:246/255.f green:239/255.f blue:239/255.f alpha:1.0];
-	appearance.tableViewCellSelectionColor = [UIColor colorWithRed:246/255.f green:239/255.f blue:239/255.f alpha:1.0];
-	appearance.tableViewBackgroundColor = [UIColor colorWithRed:246/255.f green:239/255.f blue:239/255.f alpha:1.0];
+	// appearance.navigationBarTintColor = [UIColor blackColor];
+	// appearance.navigationBarBackgroundColor = [UIColor whiteColor];
+	// appearance.navigationBarTitleColor = [UIColor blackColor];
+	// appearance.statusBarTintColor = [UIColor blackColor];
+	// appearance.tableViewCellTextColor = [UIColor blackColor];
+	// appearance.tableViewCellBackgroundColor = [UIColor colorWithRed:229/255.f green:229/255.f blue:229/255.f alpha:1.0];
+	// appearance.tableViewCellSeparatorColor = [UIColor grayColor];
+	// appearance.tableViewCellSelectionColor = [UIColor colorWithRed:246/255.f green:239/255.f blue:239/255.f alpha:1.0];
+	// appearance.tableViewBackgroundColor = [UIColor whiteColor];
 	self.hb_appearanceSettings = appearance;
 }
 
